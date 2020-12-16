@@ -1,4 +1,4 @@
-package day24;
+package day24_Arrays;
 import java.util.Scanner;
 public class WarmUp1_UniqueChar {
     /*

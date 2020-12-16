@@ -10,6 +10,9 @@ public class MethodCalls {
         String firstName = "elKEm";
         String lastName = "emeT";
 
+
+
+
         String fullName = Util.formatFullName(firstName, lastName);
         System.out.println(fullName);
 

@@ -24,8 +24,10 @@ public class Local_Times {
          */
 
     public static void main(String[] args) {
+        System.out.println("========");
 
-       LocalTime t1 =  LocalTime.of(23,0,59, 59);
+       LocalTime t1 =  LocalTime.now();
+       t1.plusHours(2);
        //  23>= hour >=0;
         // 59>=(min, sec)>=0
         System.out.println(t1);

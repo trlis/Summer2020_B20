@@ -3,15 +3,18 @@ package day23_Array;
 public class ArrayVariable {
     public static void main(String[] args) {
         /*
-      3 main data structures in Java are:
+      3 main DATA STRUCTURES in Java are:
 
             -  1.Array
             -  2.Collection
             -  3.Map
+
+      Stores multiple data within one variable
      =================================================================================================================
-      variable:
-             _Datatype_ name_=_data_
-             int(datatype) num(var) = 1 (data)
+      Regular variable:
+
+             Datatype        name     =     data
+             int(datatype)  num(var)  =  1 (data)
 
              DataType decides what you can store into a variable
 
@@ -44,7 +47,8 @@ public class ArrayVariable {
         System.out.println("\n========== Practice ============\n");
 
         int[] score = {85, 70, 95, 90, 100};
-        //  indexes:   0   1   2   3   4  - size 5
+        // indexes:     0   1   2   3   4    - size 5
+
         String[] name = {"Mike", "Adam", "Tonny", "John", "Amy"};
         //  indexes:        0       1       2        3      4  - size 5
 

@@ -31,7 +31,7 @@ public class ArrayList_Methods {
         list.add(4); //3
         list.add(5); //4
 
-        list.remove(2); //2-int ==> remove index from the array list, decrease array size
+        list.remove(1); //2-int ==> remove index from the array list, decrease array size
                                                                   // [1, 2, 3, 4, 5] => [1, 2, 4, 5]
 
         //list.remove(4); //Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
@@ -48,23 +48,27 @@ public class ArrayList_Methods {
         list2.add(4); //3
         list2.add(5); //4
 
-        Integer a = 1;
+        int a = 1;
         list2.remove(a); //Element under index 0 in the Array
         System.out.println(list2);//  [1, 2, 3, 4, 5]==>[2, 3, 4, 5]
 
         ArrayList<String> list3 = new ArrayList<>();
         list3.add("Hamit");
         list3.add("Lilia");
-        list3.add("Bulnet");
+        list3.add("Musa");
         list3.add("Viorel");
         list3.add("Musa");
 
+        if(list3.remove("Musa")){
+            list3.remove("Kate");
+
+        }
+        System.out.println(list3);
+
         list3.remove(2);
 
-        list3.remove("Bulnet"); //after removing returns boolean
-        //if succesfully remuves => true, if not ==> flase
 
-        System.out.println(list3);
+
 
 
 

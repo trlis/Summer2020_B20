@@ -1,5 +1,5 @@
-package day24;
-import java.util.Scanner;
+package day24_Arrays;
+
 public class WarmUp3_Average {
     public static void main(String[] args) {
         /*

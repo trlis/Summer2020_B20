@@ -45,7 +45,7 @@ public class Local_DateTime_Formatting {
 
         System.out.println("=============== Formating ====================");
 
-        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("MMMM/EEEE/yyyy");
+        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("M/d/yyyy");
 
         LocalDate ld = LocalDate.of(2020, 7, 25);
         System.out.println(ld);
@@ -63,7 +63,7 @@ public class Local_DateTime_Formatting {
 
         DateTimeFormatter dateTime= DateTimeFormatter.ofPattern("MMMM/dd/yyyy EEEE hh:mm a");
         LocalDateTime dt =LocalDateTime.of(2000, 4, 24, 5, 15);
-        System.out.println(dt.format(dateTime));
+        System.out.println(dt);
 
 
         LocalDateTime rightNow =LocalDateTime.now();

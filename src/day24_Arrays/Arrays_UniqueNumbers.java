@@ -1,7 +1,9 @@
-package day24;
+package day24_Arrays;
 
 public class Arrays_UniqueNumbers {
     public static void main(String[] args) {
+
+
 
         int[] arr = {1,1, 2, 3, 3, 6, 8, 9, 6, 4, 4, 1, 7, };
         /*
