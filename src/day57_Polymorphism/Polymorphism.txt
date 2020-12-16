@@ -1,0 +1,16 @@
+
+Polymorphism:  object's behavior in different forms
+
+
+
+      Chrome driver = new ChromeDriver();
+      WebDriver driver = new ChromeDriver();
+
+
+      driver = new FireFoxDriver();
+      driver = new ChromeDriver();
+
+      driver = new FireFoxDriver();
+
+      driver = new FireFoxDriver();
+      driver....

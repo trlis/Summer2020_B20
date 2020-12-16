@@ -1,0 +1,67 @@
+
+CONSTRUCTOR
+
+Regular method declaration:
+
+	   Access-modifier   Specifier   ReturnType   methodName (parameters) { statements }
+
+
+Constructor is a very special method. Used whenever we need to create an object of the class
+
+		    A                 obj          =      new          A();
+		class name        obj. name             keyword    Constructor
+
+
+Every class must mave a constructor. Without the constructor we can not have any class at all.
+If we dont create one, compiler creates constructor for us by default
+
+The only time the compiler creates a Constructor by default when you did not create it by yourself.
+
+When I create a CONSTRUCTOtR
+Then Compiler does not create a default CONSTRUCTOR
+
+When I do not create a CONSTRUCTOtR
+Then Compiler creates a default CONSTRUCTOR for me.
+
+
+
+Class can not exist without the constructor.
+Object can not exist without the class.
+
+Constructor declaration:
+
+	Access-modifier  (no return type / no specifier) name has to be same with the class name ( parameters ) {}
+
+	Access-modifier className(parameters){}
+
+
+
+
+We can create as many objects as we want
+Create object from the class:
+
+	ClassName obj = new Existing constructor
+
+Execution of the constructor epends on the creation of object.
+If object is not created  the CONSTRUCTOR will NOT be executed
+
+
+
+Summary
+
+	- Constructor is a special method that every class MUST have
+	- Constructor is used when we create the object of a class
+	- We can use constructor to initialize the object's instance variables
+	- Execution of a constructor ALWAYS depends on the object
+	-CONSTRUCTOR IS A SPECIAL METHOD THAT MATCHES THE NAME OF THE CLASS AND HAS NO RETURN TYPE
+
+
+	NO-ARGUMENT CONSTRUCTOR:
+		A constructor that has no parameter is known as a default constructor.
+		If we do not define a constructor in a class, then compiler creates a default constructor(with no argument) for the class.
+
+	PARAMETERIZED CONSTRUCTOR:
+		A constructor that has parameters is known as a parameterized constructor.
+		If we want to initialize fields of the class with our own values, then we pass the parameters to the constructor
+
+tor

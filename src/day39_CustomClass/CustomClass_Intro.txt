@@ -1,0 +1,75 @@
+
+
+CUSTOM CLASSES
+
+String class:
+			   Data/ Attributes:   text, index
+
+			Actions/ Functions :    charAt(); substring(); indexOf(); lowerCase(); upperCase(); - methods
+
+
+
+Car class:
+
+           Data/ Attributes:      Color, Brand, year, Model, mileage       - given by using instance variables
+
+           Actions/ Functions:    start, stop                              - given by using instance methods
+
+
+Class decides what objects can be created it from
+
+When you create a class in order to use a class you need to create an object
+
+When we have a string class we create an object by giving string literals
+When we need to use an ArrayList class we create an object
+
+So the class is where you objects are came from
+
+--------------------------------------------------------------------------------------------------
+A CLASS is an entity that determines how an object will behave and what the object will contain
+
+A CLASS is a blueprint or set of instructions to build a specific type of object
+
+--------------------------------------------------------------------------------------------------
+OBJECT must come fom the class
+An OBJECT is an INSTANCE of the class
+
+An object can store data. The data stored in an objects are commonly called fields
+
+Objects share all the data attributes from the class
+
+We can create a class without object
+    BUT
+We CAN NOT create on object without the class
+
+
+    (class)Car: -entity that determines the objects(objects(instance of the class) created from the class)
+    For one object we can give multiple data (value):
+                                                       (object)car: (data) Tesla, model X, white
+                    Brand:
+(object)car1:  (data) Mercedes (1 copy of the brand)
+        car2:         BMW      (2 copy of the brand)
+        car3:         Audi     (3 copy of the brand)
+       .....
+
+ INSTANCE VARIABLE : object variables  (belongs to the object)
+                     declared outside the method
+                     each object has its own copy of instance variables
+
+  By declaring instance variable we will be able to store different value to those variables every time we create new object
+  We can call the instance variable through the objects
+
+  Instance methods(objects' methods)
+                                    - can be called through the obj. name):
+                                    - does not have static. If the method contains static it's not an instance method
+
+
+
+
+
+
+
+
+
+
+

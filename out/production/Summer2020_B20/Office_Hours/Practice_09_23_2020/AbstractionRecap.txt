@@ -1,0 +1,72 @@
+    /*
+    Abstraction - hiding the implementation
+
+    abstract method: method without implementation/ body
+                    we give implementation when we override
+                    meant to be overridden
+
+
+      2 ways to achieve abstraction:
+            1. abstract class: can have all methods and variables the regular class can + abstract methods
+
+            2. Interface: specifies the actions and behaviors of the class need to implement
+                        can have methods and variables, but:
+                                variables: public static final by default
+
+                                methods: abstract, static default methods
+
+                                can only use public
+
+     Shapes task:
+
+     interface Volume:
+        hasVolume = true;
+        calculateVolume();
+
+     abstract class Shape:
+        calculateArea();
+        calculatePerimeter();
+
+    Square: extends Shape
+        calculateArea(){}
+        calculatePerimeter(){}
+
+    Rectangle: extends Shape
+        calculateArea(){}
+        calculatePerimeter(){}
+
+    Cylinder: extends Shape implements Volume
+        calculateArea(){}
+        calculatePerimeter(){}
+        calculateVolume(){}
+
+
+
+  Car task
+
+
+  *Interface is not a class. We can't use instance variables in interface
+
+  interface: autoPilot();
+  abstract class Car: brand, model, year, price
+                    start();
+                    drive();
+
+
+  In abstract class we store general info, common for all objects
+
+  BMW: brand, model, year, price...
+
+    bmw1: x5
+    bmw2: x3
+    bmw3: x6
+
+  Toyota:  brand, model, year, price... instance
+
+    toyota1: Camry
+    toyota2: Corolla
+    toyota3: Avalon
+
+
+
+    */

@@ -1,0 +1,86 @@
+
+
+
+
+
+ Static variable: we only use if fit has one common feature that can be shared by all objects of the class.
+
+
+ Instance variable : -we only use it if there is not one common feature and each for each copy more different copies needed
+                     -If we want each object has the unique data
+
+                     When we declare static variable
+
+
+                     Types of variables:
+
+                     Local variable: Declared within the method or within the block. Accessible only within the method/block.
+                                     Not accessible outside of it.
+                                     Local variable has to be initialized before use.
+
+                     Instance variable: Declared outside methods or blocks.
+                                        Declaration: int b;
+                                        Instance variable has default value. Can be used without initializing
+                                        Can be accepted only in instance variable
+                                        Shared by the object
+
+
+                     Static Variable: Declared belongs to the class.
+                                      Only Static variable can be called in the static method.
+                                      Static variable - global variable - can be accepted in the static and instance methods
+                                      Shared by the class.
+
+                                      Adv.: Can be called through the class name.
+                                            All the objects have the same data
+
+
+
+        STATIC METHOD   VS    INSTANCE METHOD
+
+
+       Static method:                                                     Instance method:
+
+       Can not accept instance variable. Only static                      Each object has own copy
+                                                                          Has instance attributes
+                                                                          Accepts static variables as well as instance variables
+                                                                          Belongs to the objects
+
+       Static members:
+
+       static variable *
+       static method *
+       static initializer block *
+       static class
+
+
+       STATIC INITIALIZER BLOCK
+
+       -runs first, regardless of what
+       runs once ss soon as
+
+       -How we declare static block :
+
+       static(keyword){
+
+       }
+
+       -Why do we need it?
+
+       Main purpose: initializing static variable
+
+       There will be situations when static variables and initialization takes more than one step
+
+
+       Static import: imports the static variable and static method
+
+            import.packageName.className.*// imports all the class members from the class
+            import static packageName.className.staticName; // imports the specific static member from the class
+
+
+
+
+
+
+
+
+
